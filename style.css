@@ -1,0 +1,32 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bs-primary: #6f42c1;
+    --bs-secondary: #20c997;
+}
+
+.tema-escuro {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.tema-escuro .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.tema-escuro .bg-secondary {
+    background-color: #333 !important;
+}
+
+aside {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.tema-escuro aside {
+    background-color: #1e1e1e;
+}
